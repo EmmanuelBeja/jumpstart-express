@@ -214,6 +214,7 @@ In your application settings code you set the template engine to use and the loc
 
 ```
 const express = require('express');
+const path = require('path');
 const app = express();
 
 // Set directory to contain the templates ('views')
